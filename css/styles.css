@@ -387,6 +387,63 @@ button {
 
 
 
+.song-row {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        50px 1fr 100px;
+
+    align-items:
+        center;
+
+    padding:
+        14px;
+
+    border-bottom:
+        1px solid var(--border);
+
+}
+
+
+.song-row:hover {
+
+    background:
+        var(--surface-hover);
+
+}
+
+
+
+.song-row small {
+
+    display:
+        block;
+
+    color:
+        var(--text-secondary);
+
+    margin-top:
+        4px;
+
+}
+
+
+.song-row button {
+
+    background:
+        var(--accent);
+
+    padding:
+        8px 14px;
+
+    color:
+        white;
+
+}
+
+
 /* Responsive */
 
 
