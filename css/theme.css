@@ -1,1 +1,71 @@
 
+:root {
+
+    /* Backgrounds */
+    --background:
+        #101214;
+
+    --surface:
+        #181B1F;
+
+    --surface-secondary:
+        #20252B;
+
+    --surface-hover:
+        #262D35;
+
+
+    /* Borders */
+    --border:
+        #303740;
+
+
+    /* Accent */
+    --accent:
+        #2F80FF;
+
+    --accent-hover:
+        #5599FF;
+
+
+    /* Text */
+    --text-primary:
+        #F5F7FA;
+
+    --text-secondary:
+        #A7B0BB;
+
+    --text-muted:
+        #727C87;
+
+
+    /* Status */
+    --success:
+        #35C759;
+
+
+    /* Player */
+    --player-height:
+        120px;
+
+
+    /* Layout */
+    --sidebar-width:
+        260px;
+
+
+    /* Effects */
+    --transition:
+        180ms ease;
+
+
+    /* Typography */
+    --font-family:
+        Inter,
+        Segoe UI,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+}
