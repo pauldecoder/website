@@ -1,0 +1,22 @@
+{
+    "version": 1,
+
+    "libraryName": "PD PLAYLIST LIBRARY",
+
+    "playlists": [
+
+        {
+            "id": "pd-playlist-1-minus",
+
+            "name": "PD PLAYLIST 1 - MINUS",
+
+            "artwork": "",
+
+            "description": "",
+
+            "songs": []
+
+        }
+
+    ]
+}
