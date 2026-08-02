@@ -4,19 +4,32 @@
     "libraryName": "PD PLAYLIST LIBRARY",
 
     "playlists": [
-
         {
             "id": "pd-playlist-1-minus",
 
             "name": "PD PLAYLIST 1 - MINUS",
 
-            "artwork": "",
+            "artwork": "album-art-link",
 
-            "description": "",
+            "description": "PD curated playlist",
 
-            "songs": []
+            "metadata": {},
 
+            "songs": [
+
+                {
+                    "title": "01 - If I Had a Heart",
+                    "artist": "Fever Ray",
+                    "url": "google-drive-link"
+                },
+
+                {
+                    "title": "02 - Guide To An Escape (Rue Royale Cover)",
+                    "artist": "Hundreds",
+                    "url": "google-drive-link"
+                }
+
+            ]
         }
-
     ]
 }
