@@ -346,3 +346,26 @@ function formatTime(seconds) {
     return `${minutes}:${remaining}`;
 
 }
+
+
+
+export function playSong(index) {
+
+
+    if (
+        !currentPlaylist
+    )
+        return;
+
+
+    currentIndex =
+        index;
+
+
+    loadSong();
+
+
+    audio.play();
+
+
+}
