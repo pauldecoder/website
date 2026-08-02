@@ -172,6 +172,7 @@ function openPlaylist(id) {
         return;
 
 
+
     document.getElementById(
         "library-view"
     )
@@ -188,11 +189,13 @@ function openPlaylist(id) {
     );
 
 
+
     document.getElementById(
         "playlist-title"
     )
     .textContent =
         playlist.name;
+
 
 
     document.getElementById(
@@ -202,5 +205,95 @@ function openPlaylist(id) {
         playlist.artwork ||
         CONFIG.defaultArtwork;
 
+
+
+    const songList =
+        document.getElementById(
+            "song-list"
+        );
+
+
+    songList.innerHTML = "";
+
+
+
+    playlist.songs.forEach(
+        (song,index)=> {
+
+
+            const row =
+                document.createElement(
+                    "div"
+                );
+
+
+            row.className =
+                "song-row";
+
+
+
+            row.innerHTML = `
+
+                <span>
+                    ${String(index + 1).padStart(2,"0")}
+                </span>
+
+
+                <div>
+
+                    <strong>
+                    ${song.title}
+                    </strong>
+
+                    <small>
+                    ${song.artist}
+                    </small>
+
+                </div>
+
+
+                <button>
+                    PLAY
+                </button>
+
+            `;
+
+
+
+            row.querySelector(
+                "button"
+            )
+            .onclick = () => {
+
+
+                import("./player.js")
+                .then(module => {
+
+
+                    module.loadPlaylist(
+                        playlist
+                    );
+
+
+                    module.playSong(
+                        index
+                    );
+
+
+                });
+
+
+            };
+
+
+
+            songList.appendChild(
+                row
+            );
+
+
+        }
+
+    );
 
 }
