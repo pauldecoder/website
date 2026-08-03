@@ -13,10 +13,21 @@ from "./media-session.js";
 
 
 
-const audio =
+const playerA =
     document.getElementById(
-        "audio-player"
+        "audio-player-a"
     );
+
+const playerB =
+    document.getElementById(
+        "audio-player-b"
+    );
+
+let activePlayer =
+    playerA;
+
+let preloadPlayer =
+    playerB;
 
 
 const playButton =
