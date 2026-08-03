@@ -1,5 +1,11 @@
 import { CONFIG } from "./config.js";
 
+import {
+    loadPlaylist,
+    playSong
+}
+from "./player.js";
+
 
 
 let playlists = [];
