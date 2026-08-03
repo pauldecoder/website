@@ -84,8 +84,13 @@ function renderPlaylistCards() {
                     ${playlist.name}
                     </h3>
 
+                 
                     <p>
-                    ${playlist.songs.length} Songs
+                    ${playlist.songCount} SONGS
+                    </p>
+
+                    <p>
+                    ${playlist.duration}
                     </p>
 
 
