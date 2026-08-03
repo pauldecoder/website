@@ -11,6 +11,12 @@
     "plays": 0,
     "lastPlayed": ""
   },
+  "options": {
+  "preloadNext": true,
+  "allowOffline": true,
+  "showVisualizer": true,
+  "gapless": true
+},
   "songs": [
     {
       "id": "01",
