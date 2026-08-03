@@ -1,26 +1,500 @@
 {
   "version": 1,
-
   "id": "pd-playlist-1-minus",
-
   "title": "PD PLAYLIST 1 - MINUS",
-
   "description": "PD curated playlist",
-
   "created": "",
-
   "modified": "",
-
   "artwork": "https://drive.google.com/uc?export=download&id=1pilKASWM9R2-aT9AiZ9qwXSeP29gzMnZ",
-
   "theme": "default",
-
   "statistics": {
     "plays": 0,
     "lastPlayed": ""
   },
-
   "songs": [
-
+    {
+      "id": "01",
+      "title": "01 - If I Had a Heart",
+      "artist": "Fever Ray",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=13TNkzFCx-TfeVSjtWZrI-lsOu_rcYAFv&export=download"
+      }
+    },
+    {
+      "id": "02",
+      "title": "02 - Guide To An Escape (Rue Royale Cover)",
+      "artist": "Hundreds",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1BENiFctdqT6vn-33wHti1lXdo7ZUemll&export=download"
+      }
+    },
+    {
+      "id": "03",
+      "title": "03 - Great Escape",
+      "artist": "Washed Out",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1i3nlfmuIqcPAoi_HzVuUN_c9ZmWhvOml&export=download"
+      }
+    },
+    {
+      "id": "04",
+      "title": "04 - Health",
+      "artist": "Still Parade",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=15hq1xX2qCjRufWA9VsDAP0NaR_CfSVBx&export=download"
+      }
+    },
+    {
+      "id": "05",
+      "title": "05 - The Curse",
+      "artist": "Agnes Obel",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1Q1GgO0QedsFDCY4SpCyqFwSJ40iJDFK5&export=download"
+      }
+    },
+    {
+      "id": "06",
+      "title": "06 - Drink The Water",
+      "artist": "Eisley",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1fB6cwaQWPmrrx8IKcCx2szKe73PWA_eB&export=download"
+      }
+    },
+    {
+      "id": "07",
+      "title": "07 - Incantation",
+      "artist": "Willow Beats",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1KMpjAtMld0cAHMV2LCk4nngiHyJcQAwm&export=download"
+      }
+    },
+    {
+      "id": "08",
+      "title": "08 - The Big Shift",
+      "artist": "Maia Vidal",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1gRYVpZRvD2-HUID0wg24tsNmDjPCjAAW&export=download"
+      }
+    },
+    {
+      "id": "09",
+      "title": "09 - Breathe This Air Feat. Purity Ring",
+      "artist": "Jon Hopkins",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1leXT_ZzPcAFB3ISk57magt5N0SiQZsts&export=download"
+      }
+    },
+    {
+      "id": "10",
+      "title": "10 - Move Along",
+      "artist": "Salt Cathedral",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1TXSaTyc_vm0sDbGhrxEhUi3E55g50ZJG&export=download"
+      }
+    },
+    {
+      "id": "11",
+      "title": "11 - Next Wave",
+      "artist": "Loumar",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1HcQhxxaVopH7KF9f0345yrdbdrFkwEd8&export=download"
+      }
+    },
+    {
+      "id": "12",
+      "title": "12 - Ninja",
+      "artist": "BAnoffee",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1f7ARmQ6jtIO1Ib4lzcO-pP8EZ-azpH2p&export=download"
+      }
+    },
+    {
+      "id": "13",
+      "title": "13 - White Tiger",
+      "artist": "Hippie Sabotage",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=19_ZDAnlEaJ-QLCXxSztIjTMb7CWIwBMm&export=download"
+      }
+    },
+    {
+      "id": "14",
+      "title": "14 - U Da Best",
+      "artist": "Wet",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=19vcnSFvtNx-CRnqtBCA9Jp7OK_cY4Ub-&export=download"
+      }
+    },
+    {
+      "id": "15",
+      "title": "15 - Make It Up",
+      "artist": "The Blow",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=17BwV3C083koZWaziGUkILAtw9kG2Ipce&export=download"
+      }
+    },
+    {
+      "id": "16",
+      "title": "16 - Miracle",
+      "artist": "Sir Sly",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1B5a2SRmCJy1NX2ttxS3g6eFKZtdCZUQn&export=download"
+      }
+    },
+    {
+      "id": "17",
+      "title": "17 - Underwear",
+      "artist": "FM Belfast",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1JdxUtnIHkat_kGFowl61xsMfbHqKszbJ&export=download"
+      }
+    },
+    {
+      "id": "18",
+      "title": "18 - Magic Beanz",
+      "artist": "Atoms For Peace",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1wtaAq40zXBaZsbyivNGSUSacZdmdFDTR&export=download"
+      }
+    },
+    {
+      "id": "19",
+      "title": "19 - In The Morning",
+      "artist": "Architecture",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1pZKZbMeCTK5E8qqIrizPwALp5Po4I3tA&export=download"
+      }
+    },
+    {
+      "id": "20",
+      "title": "20 - This Shivering",
+      "artist": "Dikolson",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1eBgFGhbojThnNrlmjfnmzsPfmr0forlo&export=download"
+      }
+    },
+    {
+      "id": "21",
+      "title": "21 - Harlequin Press",
+      "artist": "John Vanderslice",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1j1RWfExjYoDXa9KOOq0hHhtrRMSG-Cez&export=download"
+      }
+    },
+    {
+      "id": "22",
+      "title": "22 - No Magnatone",
+      "artist": "Rogue Wave",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1-9fzISlke1y9zgZMpVLviCjQevtVXdjZ&export=download"
+      }
+    },
+    {
+      "id": "23",
+      "title": "23 - Blueprint",
+      "artist": "Eden Mulholland",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1SFnNS937o-SRdMMqk1OBW8h5BUgmWGQY&export=download"
+      }
+    },
+    {
+      "id": "24",
+      "title": "24 - Baby I Am Nobody Now",
+      "artist": "Andy Bull",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=16VNYgCZAPceqfrwyMy5SpNZtRh76QzS0&export=download"
+      }
+    },
+    {
+      "id": "25",
+      "title": "25 - Where I'm Going",
+      "artist": "Sir Sly",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1iOJxii8-AExkJ6Q08hXAGc7KwOFT8CsN&export=download"
+      }
+    },
+    {
+      "id": "26",
+      "title": "26 - From The Future",
+      "artist": "The Blow",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1ow7QUhOZ_Yh_eMe44CPc-F_SaecdE36G&export=download"
+      }
+    },
+    {
+      "id": "27",
+      "title": "27 - Bang Bang You're Dead",
+      "artist": "Hannah Georgas",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1cyf_A7z1Rz101Bqw1oGPX4aKGHcc74JL&export=download"
+      }
+    },
+    {
+      "id": "28",
+      "title": "28 - Keep On Running",
+      "artist": "Andy Bull",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1OdrTo0EimezpE1EIEooaadvpKvNBY0Og&export=download"
+      }
+    },
+    {
+      "id": "29",
+      "title": "29 - Need Some Sun",
+      "artist": "Zammuto",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1ma5NAzfgRre5YxqRIqJ2wMQa6-YFZt9h&export=download"
+      }
+    },
+    {
+      "id": "30",
+      "title": "30 - Amanaemonesia",
+      "artist": "Chairlift",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1sG73Tf5pHiUQIeMlujZH7nYmxJR7x5et&export=download"
+      }
+    },
+    {
+      "id": "31",
+      "title": "31 - 3AM Spiritual",
+      "artist": "Smith Westerns",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1kHWG-EdHyUopOca7w6Nuy5DH-6CLIy17&export=download"
+      }
+    },
+    {
+      "id": "32",
+      "title": "32 - Golden Brown",
+      "artist": "The Stranglers",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1YS9oqajoMGFwk1hkwUZSySbZP4TWIfcx&export=download"
+      }
+    },
+    {
+      "id": "33",
+      "title": "33 - Paper Purse",
+      "artist": "The Clockwork Orchestra",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1gPXL7YTsH2rDw5ShrYT1WsAupiyX8Qmb&export=download"
+      }
+    },
+    {
+      "id": "34",
+      "title": "34 - What's That (Gimme That)",
+      "artist": "Moonlight Mask",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1L3B7FonnIm5QyhV7__lRPrYuQxjefjWj&export=download"
+      }
+    },
+    {
+      "id": "35",
+      "title": "35 - High School Lover",
+      "artist": "Cayucas",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1S5-OhbSGy4BWPULgxHx34jvzIc7dB5yV&export=download"
+      }
+    },
+    {
+      "id": "36",
+      "title": "36 - Coin Laundry",
+      "artist": "Lisa Mitchell",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1dHYdwXRz-o102KPruBLYLwtR7BG1m6po&export=download"
+      }
+    },
+    {
+      "id": "37",
+      "title": "37 - Nobody's Child",
+      "artist": "Alba Lua",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1UiZKfRrlzE2hv7dG85VETGf06Z0dQrcv&export=download"
+      }
+    },
+    {
+      "id": "38",
+      "title": "38 - Between Atoms",
+      "artist": "Krista Muir",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1ZoZ9i28MFU7eLlFE7Ka2ZFWRNUOjf854&export=download"
+      }
+    },
+    {
+      "id": "39",
+      "title": "39 - advanced falconry",
+      "artist": "mutual benefit",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1fs3ugci5fo167e0bB4qNwpva81eAARWP&export=download"
+      }
+    },
+    {
+      "id": "40",
+      "title": "40 - Boardwalks",
+      "artist": "Little May",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1t615LimWp4-fjDwhk15BYNFQyTtHI4p6&export=download"
+      }
+    },
+    {
+      "id": "41",
+      "title": "41 - 1957",
+      "artist": "Milo Greene",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1rwz0_XDeIHETYflcAnOZZtSvqy8Kk29k&export=download"
+      }
+    },
+    {
+      "id": "42",
+      "title": "42 - Chugjug",
+      "artist": "Family Of The Year",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1xs8_mflPL0MQr1szsiRHyfcx6EzFWRpE&export=download"
+      }
+    },
+    {
+      "id": "43",
+      "title": "43 - Open Season",
+      "artist": "High Highs",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1JIX-5Uxu2eUExXpZeTKq6cklP3-krIBd&export=download"
+      }
+    },
+    {
+      "id": "44",
+      "title": "44 - Daradada",
+      "artist": "Gruska Babuska",
+      "duration": "",
+      "artwork": "",
+      "sources": {
+        "provider": "google-drive",
+        "audio": "https://drive.google.com/uc?id=1Ri9ICXCa6dR2S-Z7XTzS85-yhx7EsV1p&export=download"
+      }
+    }
   ]
 }
