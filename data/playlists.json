@@ -5,15 +5,19 @@
 
   "playlists": [
     {
-      "id": "pd-playlist-1-minus",
+  "id": "pd-playlist-1-minus",
 
-      "name": "PD PLAYLIST 1 - MINUS",
+  "name": "PD PLAYLIST 1 - MINUS",
 
-      "artwork": "https://drive.google.com/uc?export=download&id=1pilKASWM9R2-aT9AiZ9qwXSeP29gzMnZ",
+  "artwork": "https://drive.google.com/uc?export=download&id=1pilKASWM9R2-aT9AiZ9qwXSeP29gzMnZ",
 
-      "description": "PD curated playlist",
+  "description": "PD curated playlist",
 
-      "playlistFile": "./playlists/pd-playlist-1-minus/playlist.json"
-    }
+  "songCount": 44,
+
+  "duration": "2 hr 53 min",
+
+  "playlistFile": "./playlists/pd-playlist-1-minus/playlist.json"
+}
   ]
 }
