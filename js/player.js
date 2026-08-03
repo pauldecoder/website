@@ -160,7 +160,7 @@ export function loadSong() {
 
 
     audio.src =
-        song.url;
+        song.sources.audio;
 
 
     document.getElementById(
