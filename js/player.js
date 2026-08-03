@@ -380,3 +380,15 @@ export function playSong(index) {
 
 
 }
+function swapPlayers() {
+
+    const temp =
+        activePlayer;
+
+    activePlayer =
+        preloadPlayer;
+
+    preloadPlayer =
+        temp;
+
+}
