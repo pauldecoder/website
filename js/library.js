@@ -164,139 +164,88 @@ function renderSidebar() {
 
 
 
-function openPlaylist(id) {
+async function openPlaylist(id) {
 
-
-    const playlist =
+    const playlistSummary =
         playlists.find(
-            item =>
-            item.id === id
+            item => item.id === id
         );
 
-
-    if (!playlist)
+    if (!playlistSummary)
         return;
 
+    const response =
+        await fetch(
+            playlistSummary.playlistFile
+        );
 
+    const playlist =
+        await response.json();
 
-    document.getElementById(
-        "library-view"
-    )
-    .classList.add(
-        "hidden"
-    );
+    document
+        .getElementById("library-view")
+        .classList.add("hidden");
 
+    document
+        .getElementById("playlist-view")
+        .classList.remove("hidden");
 
-    document.getElementById(
-        "playlist-view"
-    )
-    .classList.remove(
-        "hidden"
-    );
+    document
+        .getElementById("playlist-title")
+        .textContent =
+        playlist.title;
 
-
-
-    document.getElementById(
-        "playlist-title"
-    )
-    .textContent =
-        playlist.name;
-
-
-
-    document.getElementById(
-        "playlist-artwork"
-    )
-    .src =
+    document
+        .getElementById("playlist-artwork")
+        .src =
         playlist.artwork ||
         CONFIG.defaultArtwork;
 
-
+    document
+        .getElementById("playlist-information")
+        .textContent =
+        `${playlist.songs.length} SONGS`;
 
     const songList =
-        document.getElementById(
-            "song-list"
-        );
-
+        document.getElementById("song-list");
 
     songList.innerHTML = "";
 
-
-
     playlist.songs.forEach(
-        (song,index)=> {
-
+        (song, index) => {
 
             const row =
-                document.createElement(
-                    "div"
-                );
-
+                document.createElement("div");
 
             row.className =
                 "song-row";
 
-
-
             row.innerHTML = `
 
-                <span>
-                    ${String(index + 1).padStart(2,"0")}
-                </span>
-
+                <span>${String(index + 1).padStart(2,"0")}</span>
 
                 <div>
 
-                    <strong>
-                    ${song.title}
-                    </strong>
+                    <strong>${song.title}</strong>
 
-                    <small>
-                    ${song.artist}
-                    </small>
+                    <small>${song.artist}</small>
 
                 </div>
 
-
-                <button>
-                    PLAY
-                </button>
+                <button>PLAY</button>
 
             `;
 
+            row.querySelector("button")
+                .onclick = () => {
 
+                    loadPlaylist(playlist);
 
-            row.querySelector(
-                "button"
-            )
-            .onclick = () => {
+                    playSong(index);
 
+                };
 
-                import("./player.js")
-                .then(module => {
-
-
-                    module.loadPlaylist(
-                        playlist
-                    );
-
-
-                    module.playSong(
-                        index
-                    );
-
-
-                });
-
-
-            };
-
-
-
-            songList.appendChild(
-                row
-            );
-
+            songList.appendChild(row);
 
         }
 
